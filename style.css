@@ -40,8 +40,6 @@ body {
 .header-left__text:last-child {
   margin: 0%;
 }
-.header-center {
-}
 .header-center__burger {
   position: relative;
   width: 34px;
@@ -66,8 +64,7 @@ body {
   height: 1.73px;
   background: #ffffff;
 }
-.header-right {
-}
+
 .header-right__btn {
   width: 136px;
   background: #c6100f;
@@ -121,8 +118,6 @@ body {
   color: #ff0064;
 }
 
-.container {
-}
 .video-block {
   margin-top: 244px;
 }
@@ -208,8 +203,7 @@ body {
   gap: 50px;
   flex-wrap: wrap;
 }
-.video__logo-icon {
-}
+
 .video__small-text {
   margin-right: 540px;
   margin-left: 540px;
@@ -232,6 +226,170 @@ body {
 
   color: #ffffff;
 }
+
+/* Projects */
+.projects {
+  margin-top: 60px;
+}
+
+.projects__img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.projects__img img {
+  height: 640px;
+}
+
+.projects__link {
+  background: #ff0064;
+  text-align: center;
+  padding: 30px 0;
+}
+.projects__link a {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.projects__link a:hover {
+  border-bottom: 1px solid red;
+}
+
+/* Experiences */
+
+.experiences {
+  margin-top: 98px;
+}
+.experiences__title {
+  max-width: 400px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.experiences-skills {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.experiences-skills__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+  background: #171924;
+  padding: 15px 0 35px 0;
+}
+
+.experiences-skills__items div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  background: #12141e;
+  height: 150px;
+  width: 270px;
+  clip-path: polygon(
+    10% 10%,
+    90% 10%,
+    90% 90%,
+    68.48% 100%,
+    33.05% 100%,
+    10% 90%
+  );
+}
+
+.experiences-skills__items div img {
+  height: 80px;
+}
+
+.experiences-skills__items h3 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 25px 0 10px 0;
+  color: #ffffff;
+}
+
+.experiences-skills__items p {
+  max-width: 156px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.testimonials {
+  margin-top: 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials__title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 88px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+.testimonials h3 {
+  max-width: 572px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 29px 0 20px 0;
+}
+.testimonials p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  
+}
+.testimonials img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.testimonials__square {
+  display: flex;
+  gap: 10px;
+}
+
+.testimonials__square div {
+  margin-top: 20px;
+  width: 11px;
+  height: 11px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.testimonials__square div:first-child {
+  background: rgba(255, 255, 255, 0.9);
+}
+
 .ourSkills {
   position: relative;
   margin-top: 150px;
@@ -317,9 +475,6 @@ body {
   margin-top: 267.45px;
 }
 
-.funFacts__subtitle {
-}
-
 .funFacts__subtitle h3 {
   font-weight: 400;
   font-size: 40px;
@@ -397,7 +552,7 @@ body {
 }
 
 .contactUs__input {
-	padding-left: 20px;
+  padding-left: 20px;
   height: 45px;
   background-color: #12141d;
   border: none;
@@ -552,7 +707,7 @@ body {
 /* Footer */
 .footer {
   margin-top: 50px;
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .footer-header {
   display: flex;
@@ -613,7 +768,7 @@ body {
   color: #ffffff;
 }
 .footer-bittom {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 .footer-bottom p {
   font-weight: 400;
